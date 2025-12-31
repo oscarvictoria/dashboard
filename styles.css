@@ -4,4 +4,57 @@
 
 body {
     margin: 0; 
+     
+    
 }
+
+header {
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0047AB;
+    color: #fff;;
+}
+
+header h1 {
+
+}
+
+header ul {
+    padding: 25px;
+}
+
+
+header ul li {
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #0056b3;
+    color: white;
+    
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+main {
+    width: 100%;
+    border: 2px solid blue;
+  
+}
+
+
+
+/* Create CSS variables in :root (colors + spacing) */
