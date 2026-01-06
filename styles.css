@@ -52,9 +52,37 @@ header ul li {
 main {
     width: 100%;
     border: 2px solid blue;
-  
+    background-color: #F5F5F5;
 }
 
+.overview {
+    
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    
+}
 
+.overview .card {
+    border: 2px solid black;
+    height: 100px;
+    width: 270px;
+    text-align: center;
+    /* border-radius: 12px; */
+}
+
+.card-1 {
+    background-color: #00D4FF;
+}
+
+.card-2 {
+    background-color: #FCB045;
+}
+
+.card-3 {
+    background-color: #57C785;
+}
 
 /* Create CSS variables in :root (colors + spacing) */
