@@ -37,17 +37,23 @@ header ul li {
     display: flex;
 }
 
+.sidebar ul {
+  padding-left: 5px;
+
+}
+
 .sidebar {
     width: 20%;
-    background-color: #090979;
+    background-color: #222286;
     color: white;
     
 }
 
 .sidebar ul li {
-    padding: 10px;
-    font-size: 21px;
+    padding: 12px;
+    font-size: 22px;
     list-style: none;
+    position:relative;
 }
 
 main {
@@ -55,14 +61,20 @@ main {
     border: 2px solid blue;
     background-color: #F5F5F5;
     padding: 30px;
+    
 }
 
 main h1 {
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid #414a4c;
+    padding: 20px;
+    font-size: 40px;
+
 }
 
 .welcome h3 {
-    font-size: 30px;
+    font-size: 40px;
+    border-bottom:  0.5px solid #414a4c;
+    padding: 20px;
 }
 
 
@@ -72,7 +84,7 @@ main h1 {
     flex-wrap: no-wrap;
     justify-content: space-evenly;
     padding: 10px;
-    
+    font-size: 22px;
 }
 
 
@@ -83,8 +95,8 @@ main h1 {
     text-align: center;
     margin: 12px;
     color: #fff;
-    font-size: 24px;
-    padding-top: 30px;
+    font-size: 34px;
+    padding-top: 20px;
     /* border-radius: 12px; */
 }
 
@@ -104,7 +116,7 @@ main h1 {
 }
 
 .recent h3 {
-    font-size: 24px;
+    font-size: 34px;
     padding-left: 50px;
 
 }
@@ -112,7 +124,7 @@ main h1 {
 .recent ul li {
     padding: 20px;
     margin: 10px;
-    font-size: 21px;
+    font-size: 24px;
     background-color: #fff;
     list-style: none;
     height: 60px;
@@ -122,6 +134,7 @@ main h1 {
 
 .links h2 {
     margin-top: 40px;
+    font-size: 32px;
 }
 
 .links button {
