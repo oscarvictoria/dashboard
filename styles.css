@@ -45,10 +45,8 @@ header ul li {
 }
 
 .sidebar {
-    /* min-width: 23%; */
     width: 22%;
     min-width: 250px;
-    /* width: 30%;  */
     background-color: #222286;
     color: white; 
 }
@@ -109,7 +107,6 @@ main h1 {
     color: #fff;
     font-size: 34px;
     padding-top: 20px;
-    /* border-radius: 12px; */
 }
 
 .card-1 {
@@ -158,4 +155,3 @@ main h1 {
     font-size: 21px;
 }
 
-/* Create CSS variables in :root (colors + spacing) */
