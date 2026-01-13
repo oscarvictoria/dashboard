@@ -51,18 +51,16 @@ header ul li {
 
 .sidebar ul li {
     padding: 12px;
-    font-size: 22px;
+    font-size: 28px;
     list-style: none;
     position:relative;
 }
 
-li img {
-    width: 46px; 
-    height: 66px;
-    margin-right: 10px; 
-    vertical-align: middle;
-   
+i {
+    margin-right: 8px;
+    font-size: 28px;
 }
+
 
 main {
     width: 100%;
