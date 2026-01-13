@@ -56,6 +56,14 @@ header ul li {
     position:relative;
 }
 
+li img {
+    width: 46px; 
+    height: 66px;
+    margin-right: 10px; 
+    vertical-align: middle;
+   
+}
+
 main {
     width: 100%;
     border: 2px solid blue;
